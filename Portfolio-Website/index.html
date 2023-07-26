@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mukesh Kumar</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/18e1a5f4ed.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!------------------ Home Page ---------------------------->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="./images/logo.jpg" alt="" class="logo" />
+
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>        
+            </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">        
+          <h1>
+            Hi,I am <span> <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h3 class="animate-charcter "> Mukesh Kumar </h3>
+                </div>
+              </div>
+            </div></span> <br />
+          
+          </h1>
+          <h2>Software Developer <br></h2>
+          <p> 
+            As a Software  developer, I have a passion for crafting robust and scalable web applications. With expertise in both front-End and back-End technologies, I am proficient in HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, Rest Api and
+React.js. I ensure the reliability and functionality of web applications. 
+          </p>
+          <a  class="btn3" href ="https://www.linkedin.com/in/mukesh-kumar-46893b231/" target="#" >Let's Connect</a>
+        </div>
+      </div>
+    </div>
+
+    <!--------------- About Page ----------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/m1.jpg" alt="" srcset="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              As a recently graduated B.Tech Computer Science professional, I am a self-motivated and hardworking individual. With a passion for learning, I quickly adapt to new technologies and concepts. Specializing in Software development with React.js, HTML, CSS, and JavaScript, I also excel in back-end development using Node.js, Express.js, Rest Api and databases such as MongoDB and SQL. With a strong foundation in API testing, I ensure the reliability and functionality of web applications. Explore my portfolio and connect with me for exciting opportunities.
+ I am  I thrive in collaborative environments, leveraging my problem-solving skills to deliver efficient solutions. I am dedicated to staying up-to-date with the latest technologies and continuously expanding my knowledge to provide 
+exceptional user experiences.
+            </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links"onclick="opentab('experience')"></p>Experience</p>
+                <p class="tab-links" onclick="opentab('education')"></p>Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li> <span>UI/UX</span><br> Designing Web Interfaces<br></li>
+                    <li> <span>Web Development</span><br> HTML,CSS & JS<br></li>
+                    <li> <span>Mern Stack</span><br> Web Designing<br></li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li> <span>2022</span><br> Web Development<br></li>
+                    <li> <span>2022</span><br> Internshala Student Partner 31!<br></li>
+                    <li> <span>2021</span><br> Web Designing and Development<br></li>
+                 </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li> <span>2024</span><br> B.Tech from RGPV Bhopal<br></li>
+                    <li> <span>2020</span><br> DPS Nigahi<br></li>
+                    <li> <span>2018</span><br> SJS Waidhan<br></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------Skills------------------- -->
+
+    <div id="services">
+    <div class="services">
+      <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-sharp fa-solid fa-crop-simple"></i>
+            <h2>Web Design</h2>
+            <p>Web design involves creating visually appealing and functional websites. It encompasses various disciplines like layout design, typography, color theory, and user experience. Web designers use HTML, CSS, and JavaScript to construct responsive and interactive web pages that effectively communicate information and engage users across different devices and platforms. 
+            </p>
+            <a href="https://www.simplilearn.com/what-is-web-designing-article" target="_blank">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            
+            <p>Web development encompasses the process of building and maintaining websites and web applications. It involves coding using languages like HTML, CSS, and JavaScript, as well as backend technologies like PHP, Python, or Ruby. Web developers handle tasks such as server configuration, database management, and integration of functionality for a seamless online experience.</p>
+            <a href="https://www.geeksforgeeks.org/web-development/" target="_blank">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-crop-simple"></i>
+            <h2>Full Stack Development</h2>
+            <p>Full stack development refers to the ability to work on both the front-end and back-end components of a web application. It involves knowledge of front-end technologies like HTML, CSS, and JavaScript, as well as back-end technologies like databases, server-side programming, and APIs, allowing for end-to-end development and deployment of web applications. 
+            </p>
+            <a href="https://www.w3schools.com/whatis/whatis_fullstack.asp" target="_blank">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-c"></i>
+            <h2>C++ programming</h2>
+            <p>C++ is a versatile, object-oriented programming language renowned for its performance and extensive libraries. It allows low-level memory manipulation, supports generic programming, and offers features like classes, inheritance, and polymorphism. C++ is used for developing applications, embedded systems, games, and software that demand high efficiency and control.</p>
+            <a href="https://www.geeksforgeeks.org/introduction-to-c-programming-language/" target="_blank">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-crop-simple"></i>
+            <h2>Data Structure and Algorithms</h2>
+            <p>DSA (Data Structures and Algorithms) is a field of computer science that deals with organizing and manipulating data efficiently. It involves studying various data structures like arrays, linked lists, trees, and algorithms such as sorting, searching, and graph traversal to solve complex computational problems. 
+            </p>
+            <a href="https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/" target="_blank">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>Database Management System</h2>
+            <p>DBMS (Database Management System) is a software system that enables the storage, retrieval, and management of structured data. It provides tools for creating, modifying, and querying databases, ensuring data integrity, and supporting concurrency control. DBMS is vital in organizing and accessing data efficiently for applications and businesses. 
+            </p>
+            <a href="https://www.javatpoint.com/dbms-tutorial" target="_blank">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  
+    <!--------------------------- My Projects-----------------  -->
+
+    <div id="services">
+      <div class="services">
+        <div class="container">
+          <h1 class="sub-title">My Projects</h1>
+          <div class="services-list">
+            <div>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <h2>Grocery Store Clone</h2>
+              <p>Web design involves creating visually appealing and functional websites. It encompasses various disciplines like layout design, typography, color theory, and user experience. Web designers use HTML, CSS, and JavaScript to construct responsive and interactive web pages that effectively communicate information and engage users across different devices and platforms. 
+              </p>
+              <a href="https://github.com/Mukesh1848/Grocery_store" target="_blank">Get Code</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-youtube"></i>
+              <h2>Youtube Clone</h2>
+              
+              <p>Web development encompasses the process of building and maintaining websites and web applications. It involves coding using languages like HTML, CSS, and JavaScript, as well as backend technologies like PHP, Python, or Ruby. Web developers handle tasks such as server configuration, database management, and integration of functionality for a seamless online experience.</p>
+              <a href="https://github.com/Mukesh1848/youtube_clone" target="_blank">Get Code</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>My PortFolio</h2>
+              <p>C++ is a versatile, object-oriented programming language renowned for its performance and extensive libraries. It allows low-level memory manipulation, supports generic programming, and offers features like classes, inheritance, and polymorphism. C++ is used for developing applications, embedded systems, games, and software that demand high efficiency and control.</p>
+              <a href="https://github.com/Mukesh1848/MyPortfolio_website" target="_blank">Get Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  
+    <!-- ---------------------- Works-------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/chatgpt.webp" alt="" class="img1" >
+            <div class="layer">
+              <h3>ChatGpt</h3>
+              <p>ChatGPT is an advanced AI language model that uses deep learning to engage in conversational interactions. </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div> 
+          </div>
+          <div class="work">
+            <img src="images/vscode.jpg" alt="" class="img1" >
+            <div class="layer">
+              <h3>Visual Studio Code Editor</h3>
+              <p>VS Code is a popular, lightweight code editor with extensive customization. </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div> 
+          </div>
+          <div class="work">
+            <img src="images/github.jpg" alt="" class="img1" >
+            <div class="layer">
+              <h3>Github</h3>
+              <p>GitHub is a widely used platform for hosting and collaborating on code repositories.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div> 
+          </div>
+          <div class="work">
+            <img src="images/work1.jpg" alt="" class="img1" >
+            <div class="layer">
+              <h3>Web Development App</h3>
+              <p>The app connects you to the talented people around the world.
+                Download it from play store. </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div> 
+          </div>
+          <div class="work">
+            <img src="images/hosting.jpg" alt="" class="img2" >
+            <div class="layer">
+              <h3>Hosting</h3>
+              <p>When a hosting provider allocates space on a web server for a website to store its files, they are hosting a website.  </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/postman.avif" alt="" class="img3">
+            <div class="layer">
+              <h3>PostMan</h3>
+              <p>Postman is a popular API development tool that simplifies testing, documenting, and interacting with APIs.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+              <a href="#" class="btn">See more</a>
+      </div>
+      </div>
+    </div>
+
+    <!-- ------------------Contact-------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p ><i class="fa-solid fa-envelope"></i>mukeshrai5977@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+91 8269671848</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100036489859448"target="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/mukeshrai_45/"target="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/mukesh-kumar-46893b231/" target="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/Mukesh1848" target="#"><i class="fa-brands fa-github"></i></a>
+              <a href=""></a>
+
+            </div>
+            <a href="Mukesh Kumar Resume.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required id="">
+              <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+              <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @ Mukesh Kumar <i class="fa-solid fa-heart"></i> All rights reserved.
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+    
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxOMW0BmfKxV1QOy373_X0JnVb3vjZ7neQDJ8lh43UuikZ2HPAVg_kEbLtykiEE8XKi/exec'
+      const form = document.forms['submit-to-google-sheet']
+
+      const msg=document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML =""   },5000)
+              form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+    <script src="./script.js"></script>
+    <script src="./script1.js"></script>
+  
+</body>
+</html>
